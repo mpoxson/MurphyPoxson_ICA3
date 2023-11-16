@@ -1,10 +1,10 @@
-import logo from "./logo.svg";
 import "./App.css";
+import Box from "./components/box/Box";
 
 function App() {
   return (
     <div className="App">
-      <h1>This is a test for main branch deploy</h1>
+      <Box />
     </div>
   );
 }
